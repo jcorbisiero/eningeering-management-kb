@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Decision Making/technique-decision-making.md.md",
+                "file": "decision-making/technique-decision-making.md.md",
                 "mode": "source",
                 "source": false
               },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Decision Making/technique-decision-making.md.md",
+                "file": "decision-making/technique-decision-making.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Decision Making/technique-decision-making.md.md",
+                "file": "decision-making/technique-decision-making.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Decision Making/technique-decision-making.md.md",
+                "file": "decision-making/technique-decision-making.md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,14 +201,14 @@
   },
   "active": "bc0f643e34f69d9c",
   "lastOpenFiles": [
-    "Decision Making/key-person-risk.md.md",
-    "Decision Making/examples.md.md",
-    "Decision Making/decision-making-techniques.md.md",
-    "Decision Making/_references.md.md",
-    "Decision Making/technique-decision-making.md.md",
+    "decision-making/key-person-risk.md.md",
+    "decision-making/examples.md.md",
+    "decision-making/decision-making-techniques.md.md",
+    "decision-making/_references.md.md",
+    "decision-making/technique-decision-making.md.md",
     "Decision Making/questions-to-ask.md.md",
     "README.md",
     "Untitled.base",
-    "Decision Making"
+    "decision-making"
   ]
 }
