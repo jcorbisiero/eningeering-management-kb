@@ -1,0 +1,1 @@
+* [Load Bearing People](https://mikefisher.substack.com/p/load-bearing-people)

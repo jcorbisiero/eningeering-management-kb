@@ -1,17 +1,17 @@
 ---
 name: kb-note-reviewer
-description: Review new or existing notes in this engineering management knowledge base, auto-generate complete YAML frontmatter (title, tags, summary, related), and sync the folder's index.md. Use this skill whenever the user mentions "new note", "frontmatter", "index", "add a note", "review notes", or creates/edits any .md file in the KB that might be missing or have incomplete frontmatter. Also use it after pasting raw content that should become a note, or when the user asks to "tidy up" or "audit" the knowledge base.
+description: Review notes that are staged or committed (new changes ready to enter the KB), auto-generate complete YAML frontmatter (title, tags, summary, related), and sync the folder's index.md. Use this skill whenever the user says "review notes", "check frontmatter", "ready to commit", or similar — it scopes automatically to git-tracked changes rather than the whole vault.
 ---
 
 # KB Note Reviewer
 
-This skill reviews Obsidian engineering-management knowledge base notes, writes complete YAML frontmatter where it's missing or incomplete, and keeps the folder `index.md` accurate. Always use this skill proactively whenever a new note is created or the user asks to review notes.
+This skill reviews Obsidian engineering-management knowledge base notes that have new git changes (staged, unstaged, or in the latest commit), writes complete YAML frontmatter where it's missing or incomplete, and keeps the folder `index.md` accurate. It never audits the whole vault — it only touches files that have changed.
 
 ---
 
 ## What you're working with
 
-The KB lives at the working directory. Every `.md` note (except `index.md` and `_references.md`) must have valid YAML frontmatter. If frontmatter is absent or has empty/placeholder fields, generate it from the note's content.
+The KB lives at the working directory. Run `git status --short` and `git diff --name-only HEAD` to find the set of changed `.md` files. Only review those files — do not scan the entire vault. Every `.md` note (except `index.md` and `_references.md`) must have valid YAML frontmatter. If frontmatter is absent or has empty/placeholder fields, generate it from the note's content.
 
 ---
 
@@ -90,9 +90,51 @@ Rules:
 
 ---
 
+## Updating README.md
+
+After processing all notes, check whether the `README.md` Folder Map and Quick Navigation sections are still accurate. Update them if any of the following are true:
+
+- A changed note belongs to a folder not yet listed in the **Folder Map** table — add a new row
+- A new folder was created (has an `index.md`) and is absent from both the Folder Map and Quick Navigation — add it to both
+- A folder's description in the Folder Map is stale relative to the notes now in it — update the description
+
+The README Folder Map format is:
+
+```markdown
+| Folder | What it covers |
+|--------|---------------|
+| `folder-name` | One sentence describing the folder's scope |
+```
+
+The Quick Navigation section lists links to each folder's `index.md`:
+
+```markdown
+- [folder-name/index.md](folder-name/index.md)
+```
+
+Rules:
+- Keep both the Folder Map table and the Quick Navigation list sorted alphabetically by folder name
+- Derive the folder description from the notes present in that folder — make it accurate and specific, not generic
+- Do not remove existing folders from README unless their directory no longer exists
+- Do not edit any other section of README.md (intro paragraph, "How to Use" section, etc.)
+
+---
+
 ## Workflow
 
-### Single note review
+### Determine scope from git
+
+Always start here — never skip this step:
+
+1. Run `git status --short` to find untracked and modified files
+2. Run `git diff --name-only HEAD` to find files changed since the last commit
+3. Combine both lists, deduplicate, and filter to `.md` files only
+4. Exclude `index.md`, `_references.md`, `CLAUDE.md`, `CONTRIBUTING.md`, and `README.md`
+5. That filtered list is your **review set** — process only those files
+
+If the review set is empty, report "No changed notes to review" and stop.
+
+### Per-note review (applied to each file in the review set)
 
 1. Read the note file
 2. Check if frontmatter is present and complete (all four fields non-empty, tags from taxonomy)
@@ -101,16 +143,14 @@ Rules:
 5. Add or update the note's row in the index table
 6. Report what you changed (frontmatter added/fixed, index updated)
 
-### Folder audit (multiple notes)
+### README sync (run once after all per-note reviews are done)
 
-When the user asks to audit or tidy a folder:
-
-1. Read `index.md` to get the list of notes
-2. Find all `.md` files in the folder (exclude `index.md` and `_references.md`)
-3. For each note, check frontmatter completeness
-4. Fix any issues and collect a summary of what changed
-5. Rewrite `index.md` to reflect the current state of all notes — remove stale entries, add missing ones, correct descriptions
-6. Report a short summary: N notes checked, M fixed, index updated
+1. Read `README.md`
+2. Collect the set of folders that contain any reviewed note
+3. For each such folder, check whether it appears in the Folder Map table and Quick Navigation list
+4. If a folder is missing from either section, add it
+5. If a folder's Folder Map description is stale, update it
+6. Write the updated README only if changes were needed; report "README: updated" or "README: already current"
 
 ---
 
@@ -135,6 +175,8 @@ Reviewed: <note-name>.md
   - summary: "..."
   - related: [...]
 - index.md: [updated | already current]
+
+README.md: [updated | already current]
 ```
 
 For folder audits, one row per note in the report, then a one-line total.

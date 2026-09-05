@@ -11,10 +11,10 @@
             "id": "a8e190f3727314ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -155,7 +155,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "decision-making/technique-decision-making.md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -193,23 +192,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b82d7d77af0924da",
+  "active": "a8e190f3727314ea",
   "lastOpenFiles": [
+    "culture/index.md",
+    "culture/key-person-risk.md",
+    "culture/_references.md",
+    "culture/key-man-risk.md",
+    "culture/key-man-ris.md",
+    "culture",
+    "decision-making/index.md",
+    "README.md",
+    "CONTRIBUTING.md",
+    "CLAUDE.md",
+    "decision-making/technique-decision-making.md.md",
     "decision-making/technique-decision-making.md",
     "decision-making/key-person-risk.md",
     "decision-making/examples.md",
     "decision-making/decision-making-techniques.md",
     "decision-making/_references.md",
-    "decision-making/index.md",
-    "CLAUDE.md",
-    "CONTRIBUTING.md",
     "decision-making/key-person-risk.md.md",
     "decision-making/examples.md.md",
     "decision-making/decision-making-techniques.md.md",
     "decision-making/_references.md.md",
-    "decision-making/technique-decision-making.md.md",
     "Decision Making/questions-to-ask.md.md",
-    "README.md",
     "Untitled.base",
     "decision-making"
   ]
