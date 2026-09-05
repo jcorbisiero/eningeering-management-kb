@@ -1,0 +1,2 @@
+* [Invert, always invert \- by James Stanier](https://theengineeringmanager.substack.com/p/invert-always-invert)  
+* [Control and complexity: tension in systems design](https://ferd.ca/control-and-complexity-tension-in-systems-design.html)
