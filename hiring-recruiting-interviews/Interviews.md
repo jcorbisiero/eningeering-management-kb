@@ -5,7 +5,7 @@ summary: A curated list of questions to ask potential employers during interview
 related: []
 ---
 
-### Great questions to ask in an interview
+### Great questions to ask in an interview as the interviewee
 
 * What is the problem you are trying to solve?  
 * What's the hardest problem you are trying to solve right?  
@@ -32,6 +32,41 @@ related: []
 * When was the last reorg, and what triggered it?  
 * Why is this role open?  
   * Follow up with Did the previous person move internally or leave the company?
+
+### Great questions to ask in an interview as the interviewer
+
+### Experiential
+
+* ‘Tell me about a time when…’  
+* ‘Can you give me an example of…?’  
+* ‘Then what did you do?’  
+* ‘How did you respond?’
+
+### Hypothetical
+
+* ‘What would you do if…?’  
+* ‘If you could redo that project/team/situation, what would you do differently?’  
+* ‘What else could you have done? How do you think that would have turned out?’  
+* ‘How might you…?’  
+* Are they curious?   
+* Do they reciprocate by asking questions about you?   
+* Are they genuinely interested or just being polite?   
+* Do they ask follow-up questions about what you’re saying?   
+* Do their questions make you think?
+
+### Opinion
+
+* ‘What is your opinion on…?’  
+* ‘What do you think about …?’  
+* Do they learn?  
+* At some point in the conversation, you’ll probably be explaining something to them. Do they actually understand it or do they just nod and smile?
+
+### Credential
+
+* Ask them what they’ve been thinking about and probe them about it  
+* Do they seem to understand it in detail?   
+* Can they explain it clearly? (Clear explanations are a sign of genuine understanding.)  
+* Do they know stuff about the subject that you don’t?
 
 ### Resume
 
