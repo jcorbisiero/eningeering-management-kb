@@ -1,0 +1,2 @@
+* [Nine Questions I Now Ask in Interviews That I Wish I'd Asked Five Years Ago](https://louisedeason.substack.com/p/nine-questions-i-now-ask-in-interviews)  
+* [Crafting a Standout Leadership CV: A Comprehensive Guide — Lena Reinhard](https://www.lenareinhard.com/articles/crafting-a-leadership-cv)
