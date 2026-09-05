@@ -9,6 +9,8 @@ A personal knowledge base for engineering management — frameworks, techniques,
 | `culture` | Patterns and techniques for building healthy team culture — psychological safety, knowledge sharing, and avoiding organizational anti-patterns |
 | `decision-making` | Frameworks for prioritization, delegation calls, technical RFCs/ADRs, and avoiding common decision antipatterns |
 | `hiring-recruiting-interviews` | Interview questions to ask as a candidate, resume guidance, and external reading on hiring and leveling |
+| `ownership` | Ownership mindset, agency, and operating end-to-end as an engineer or manager |
+| `safety-engineering` | Techniques for making systems safer — catching failure modes early, designing for resilience, and avoiding incidents |
 | `software-engineering` | Practical techniques for software engineering work — bug reporting, code quality, and curated reading on design, debugging, and system architecture |
 
 ## How to Use
@@ -22,4 +24,6 @@ A personal knowledge base for engineering management — frameworks, techniques,
 - [culture/index.md](culture/index.md)
 - [decision-making/index.md](decision-making/index.md)
 - [hiring-recruiting-interviews/index.md](hiring-recruiting-interviews/index.md)
+- [ownership/index.md](ownership/index.md)
+- [safety-engineering/index.md](safety-engineering/index.md)
 - [software-engineering/index.md](software-engineering/index.md)
