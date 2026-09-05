@@ -152,6 +152,39 @@ If the review set is empty, report "No changed notes to review" and stop.
 5. If a folder's Folder Map description is stale, update it
 6. Write the updated README only if changes were needed; report "README: updated" or "README: already current"
 
+### Quartz sync (run once after the README sync)
+
+Follow the **Quartz web sync** section above to commit any changes made during this review and prompt the user to push.
+
+---
+
+## Quartz web sync
+
+The KB is published as a static site via Quartz, deployed automatically by GitHub Actions whenever changes are pushed to `main`. After all per-note reviews and the README sync are done, run this step to get changes live.
+
+### When to run Quartz sync
+
+Run this step only if at least one file was actually modified during the review (frontmatter written, index updated, or README updated). Skip it if everything was already current.
+
+### Steps
+
+1. Run `git status --short` to confirm there are staged or unstaged changes.
+2. Stage only the files that were touched during this review run:
+   - The reviewed note files (frontmatter changes)
+   - Any `index.md` files that were updated
+   - `README.md` if it was updated
+   - Do NOT stage unrelated files
+3. Create a commit. Use this message format:
+   ```
+   kb: review notes — update frontmatter and indexes
+   
+   Notes reviewed: <comma-separated list of note slugs>
+   ```
+4. Tell the user: "Changes committed. Push to `main` to trigger the Quartz site rebuild: `git push origin main`"
+5. Do NOT push automatically — pushing is the user's decision.
+
+If there are no uncommitted changes after the review (nothing was modified), report "Quartz sync: nothing to commit" and skip steps 2–4.
+
 ---
 
 ## What NOT to change
@@ -177,6 +210,7 @@ Reviewed: <note-name>.md
 - index.md: [updated | already current]
 
 README.md: [updated | already current]
+Quartz sync: [committed — push to main to rebuild | nothing to commit]
 ```
 
 For folder audits, one row per note in the report, then a one-line total.
