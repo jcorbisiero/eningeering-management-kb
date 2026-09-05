@@ -1,3 +1,10 @@
+---
+title: Questions to Ask as an Interview Candidate
+tags: [hiring, technique]
+summary: A curated list of questions to ask potential employers during interviews, covering culture, compensation, team health, and role clarity — plus a note on what makes a resume stand out.
+related: []
+---
+
 ### Great questions to ask in an interview
 
 * What is the problem you are trying to solve?  
