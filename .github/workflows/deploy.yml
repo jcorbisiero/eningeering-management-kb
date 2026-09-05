@@ -37,7 +37,8 @@ jobs:
 
       - name: Copy content into Quartz
         run: |
-          cp quartz.config.ts quartz/quartz.config.ts
+          sed -i 's|baseUrl: ".*"|baseUrl: "jcorbisiero.github.io/eningeering-management-kb"|' quartz/quartz.config.ts
+          sed -i 's|pageTitle: ".*"|pageTitle: "Engineering Management KB"|' quartz/quartz.config.ts
           rsync -av \
             --exclude='.git' \
             --exclude='.obsidian' \
