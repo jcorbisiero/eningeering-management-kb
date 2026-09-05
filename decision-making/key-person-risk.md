@@ -1,3 +1,10 @@
+---
+title: Key Person Risk in Decision Making
+tags: [decision-making, leadership, delegation]
+summary: How to identify and reduce over-reliance on a single person for decisions — the goal is to extract their tacit knowledge into shared systems rather than cutting them out.
+related: [decision-making-techniques, technique-decision-making]
+---
+
 ### When too many decisions rely on one person
 
 After a while in some companies, people start leaning on one person for decision making because they have been around long enough to know what went wrong in the past, how they caught a hidden issue and saved a project. People start leaning on this person to the point where they trust their judgement even if they are incorrect.

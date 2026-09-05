@@ -1,3 +1,10 @@
+---
+title: Decision Making Techniques
+tags: [decision-making, framework, technique]
+summary: Core frameworks for structuring decisions — the Decision Triangle, the Pause technique for avoiding reactive choices, Gather-Decide-Execute for active information management, and making small bets to learn fast.
+related: [examples, technique-decision-making, key-person-risk]
+---
+
 ### Decision Making Techniques
 
 #### Decision Triangle

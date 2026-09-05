@@ -1,3 +1,10 @@
+---
+title: Technical Decision Making with RFCs and ADRs
+tags: [decision-making, architecture, process, framework]
+summary: Step-by-step guide for making technical decisions — writing the RFC with priorities over pros/cons, running async review, holding a structured decision meeting, and recording the outcome as an ADR.
+related: [decision-making-techniques, key-person-risk]
+---
+
 ### Technical Decision Making RFC/ADR
 
 Step 1 \- Write the RFC

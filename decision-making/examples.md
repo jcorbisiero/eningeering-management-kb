@@ -1,3 +1,10 @@
+---
+title: Decision Making Antipatterns — Real-World Examples
+tags: [decision-making, example, communication]
+summary: Three concrete antipatterns and better alternatives — letting calendar availability set timelines, waiting for perfect information before sharing, and relinquishing control without follow-through.
+related: [decision-making-techniques, technique-decision-making]
+---
+
 ### Real-world examples
 
 Bug \#1: Letting free calendar slots decide your timeline
