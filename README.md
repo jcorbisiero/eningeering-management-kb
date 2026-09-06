@@ -6,6 +6,7 @@ A personal knowledge base for engineering management — frameworks, techniques,
 
 | Folder | What it covers |
 |--------|---------------|
+| `coaching` | Coaching techniques and question frameworks for developing self-awareness and growth in engineers and managers |
 | `culture` | Patterns and techniques for building healthy team culture — psychological safety, knowledge sharing, and avoiding organizational anti-patterns |
 | `decision-making` | Frameworks for prioritization, delegation calls, technical RFCs/ADRs, and avoiding common decision antipatterns |
 | `hiring-recruiting-interviews` | Interview questions to ask as a candidate, resume guidance, and external reading on hiring and leveling |
@@ -21,6 +22,7 @@ A personal knowledge base for engineering management — frameworks, techniques,
 
 ## Quick Navigation
 
+- [coaching/index.md](coaching/index.md)
 - [culture/index.md](culture/index.md)
 - [decision-making/index.md](decision-making/index.md)
 - [hiring-recruiting-interviews/index.md](hiring-recruiting-interviews/index.md)
