@@ -352,6 +352,10 @@
 * [Modern Git Commands and Features You Should Be Using | Martin Heinz | Personal Website & Blog](https://martinheinz.dev/blog/109)  
 * [The Git Commands I Run Before Reading Any Code](https://piechowski.io/post/git-commands-before-reading-code/)
 
+# **Hand Books**
+* [FinTech Engineering Handbook](https://w.pitula.me/fintech-engineering-handbook/)
+* [SWE Handbook](https://abseil.io/resources/swe-book/html/toc.html)
+
 # **Pull Requests**
 
 * [Effective Code Review](https://github.blog/developer-skills/github/how-to-review-code-effectively-a-github-staff-engineers-philosophy/)  

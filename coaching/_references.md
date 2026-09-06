@@ -1,0 +1,1 @@
+* [Coaching Questions that Work](https://leadershipfreak.blog/2026/08/18/coaching-questions-that-work)
