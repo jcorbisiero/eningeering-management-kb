@@ -1,3 +1,10 @@
+---
+title: Ownership
+tags: [leadership, technique]
+summary: Notes on ownership mindset, agency, and operating end-to-end as an engineer or manager.
+related: []
+---
+
 # Ownership
 
 Notes on ownership mindset, agency, and operating end-to-end as an engineer or manager.

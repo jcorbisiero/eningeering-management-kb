@@ -1,3 +1,10 @@
+---
+title: AI
+tags: [process, reference]
+summary: Notes on AI-assisted development, LLMs, and the organizational impact of AI on engineering teams — covering code review practices, naming, and shifting judgment earlier in the workflow.
+related: []
+---
+
 # AI
 
 | Note | Description |

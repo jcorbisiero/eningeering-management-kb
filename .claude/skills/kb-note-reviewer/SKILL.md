@@ -79,14 +79,29 @@ After writing or confirming frontmatter, update the folder's `index.md` table. T
 ```markdown
 | Note | Description |
 |------|-------------|
-| [slug](slug.md) | One-line description taken from the note's summary |
+| [Note Title](slug.md) | One-line description taken from the note's summary |
 ```
 
 Rules:
-- The link text is the filename slug (no `.md`)
+- The link text is the note's **title in natural English** — use the `title` field from frontmatter, converting to title case (e.g. "Key Person Risk", "How to Name Things"). Never use the raw filename slug. For `_references.md`, use `References` as the link text.
 - The description column is a short paraphrase of the `summary` field — one clause, not the full summary sentence
 - Do not duplicate entries; if the note is already listed, update the description if it changed
 - Keep the table sorted alphabetically by slug, with `_references` always last
+
+---
+
+## Checking folder index.md frontmatter
+
+Every folder's `index.md` must have the same YAML frontmatter schema as regular notes. Without it, Quartz will not register the folder as a page and the folder will not appear in the left navigation on the published site.
+
+For each folder that contains a reviewed note, check whether the folder's `index.md` has complete frontmatter (all four fields: `title`, `tags`, `summary`, `related`). If frontmatter is absent or incomplete, generate and prepend it:
+
+- **title** — the folder's human-readable name, derived from the `#` heading (e.g. "Safety Engineering", "AI")
+- **tags** — pick the theme tag that best describes the folder's dominant subject, and `reference` as the type tag (folder indexes are overview pages, not individual techniques)
+- **summary** — one or two sentences describing the folder's scope, derived from any existing description paragraph or from the notes it contains
+- **related** — `[]` (folder indexes rarely have meaningful cross-links)
+
+After writing or confirming the folder's frontmatter, report it in the output alongside the per-note results.
 
 ---
 
@@ -142,8 +157,17 @@ If the review set is empty, report "No changed notes to review" and stop.
 4. If anything is missing or wrong, rewrite the frontmatter block
 5. **If the file is new**: also apply the Markdown structure formatting rules to the body (headings, lists, paragraphs, tables, code blocks — no rewording)
 6. Read the folder's `index.md`
-7. Add or update the note's row in the index table
+7. Add or update the note's row in the index table using English title-case link text
 8. Report what you changed (frontmatter added/fixed, body formatted, index updated)
+
+### Folder index frontmatter check (run once per folder after per-note reviews)
+
+For each folder that contains a reviewed note:
+
+1. Read the folder's `index.md`
+2. Check whether complete YAML frontmatter is present (all four fields)
+3. If missing or incomplete, generate and prepend frontmatter following the **Checking folder index.md frontmatter** rules above
+4. Report: `index.md frontmatter: [added | already complete]`
 
 ### README sync (run once after all per-note reviews are done)
 
@@ -227,7 +251,9 @@ Reviewed: <note-name>.md  [new | existing]
   - summary: "..."
   - related: [...]
 - Body formatting: [applied | skipped (existing note)]
-- index.md: [updated | already current]
+- index.md row: [updated | already current]
+
+Folder index.md frontmatter: [added | already complete]
 
 README.md: [updated | already current]
 Quartz sync: [committed — push to main to rebuild | nothing to commit]
