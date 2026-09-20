@@ -362,6 +362,7 @@
 * [Improving C](https://www.doppler.com/blog/improving-code-reviews-with-storytelling)[How to review code effectively: A GitHub staff engineer’s philosophy](https://github.blog/developer-skills/github/how-to-review-code-effectively-a-github-staff-engineers-philosophy/)[ode Reviews with Storytelling](https://www.doppler.com/blog/improving-code-reviews-with-storytelling)  
 * [Writing Tips for Improving Your Pull Requests](https://www.simplethread.com/writing-tips-for-improving-your-pull-requests/)  
 * [The PERFECT Code Review: How to Reduce Cognitive Load While Improving Quality – Daniil Bastrich](https://bastrich.tech/perfect-code-review)
+* [Writing Tips for Improving your PRs](https://www.simplethread.com/writing-tips-for-improving-your-pull-requests/)
 
 # **Real World Oddities**
 
