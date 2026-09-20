@@ -13,6 +13,6 @@ Patterns and techniques for building healthy team culture — psychological safe
 
 | Note | Description |
 |------|-------------|
-| [key-person-risk](key-person-risk.md) | Why heroic culture hides single points of failure, and techniques for surfacing and reducing them |
-| [what-makes-a-good-software-engineer](what-makes-a-good-software-engineer.md) | Six-dimension framework for what good (and great) engineers look like |
-| [_references](_references.md) | External reading list for culture topics |
+| [Key Person Risk](key-person-risk.md) | Why heroic culture hides single points of failure, and techniques for surfacing and reducing them |
+| [What Makes a Good Software Engineer](what-makes-a-good-software-engineer.md) | Six-dimension framework for what good (and great) engineers look like |
+| [References](_references.md) | External reading list for culture topics |

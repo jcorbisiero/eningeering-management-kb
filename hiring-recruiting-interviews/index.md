@@ -14,4 +14,4 @@ Interview questions, resume advice, and resources for navigating hiring from bot
 | Note | Description |
 |------|-------------|
 | [Interviews](Interviews.md) | Curated questions to ask as a candidate — plus what makes a resume stand out |
-| [_references](_references.md) | External reading list for hiring and interviewing topics |
+| [References](_references.md) | External reading list for hiring and interviewing topics |

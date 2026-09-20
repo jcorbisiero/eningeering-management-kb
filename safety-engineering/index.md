@@ -4,5 +4,5 @@ Notes on techniques for making systems safer — catching failure modes early, d
 
 | Note | Description |
 |------|-------------|
-| [inversion-principle](inversion-principle.md) | Adversarial questions by failure mode to surface unknown unknowns before shipping |
-| [_references](_references.md) | External reading on safety engineering and resilience |
+| [Inversion Principle](inversion-principle.md) | Adversarial questions by failure mode to surface unknown unknowns before shipping |
+| [References](_references.md) | External reading on safety engineering and resilience |
