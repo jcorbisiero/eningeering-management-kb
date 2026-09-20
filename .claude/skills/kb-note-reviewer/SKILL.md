@@ -137,11 +137,13 @@ If the review set is empty, report "No changed notes to review" and stop.
 ### Per-note review (applied to each file in the review set)
 
 1. Read the note file
-2. Check if frontmatter is present and complete (all four fields non-empty, tags from taxonomy)
-3. If anything is missing or wrong, rewrite the frontmatter block — leave the body content untouched
-4. Read the folder's `index.md`
-5. Add or update the note's row in the index table
-6. Report what you changed (frontmatter added/fixed, index updated)
+2. Determine whether the file is **new** (appeared as `??` in `git status --short`) or **existing** (modified tracked file)
+3. Check if frontmatter is present and complete (all four fields non-empty, tags from taxonomy)
+4. If anything is missing or wrong, rewrite the frontmatter block
+5. **If the file is new**: also apply the Markdown structure formatting rules to the body (headings, lists, paragraphs, tables, code blocks — no rewording)
+6. Read the folder's `index.md`
+7. Add or update the note's row in the index table
+8. Report what you changed (frontmatter added/fixed, body formatted, index updated)
 
 ### README sync (run once after all per-note reviews are done)
 
@@ -187,9 +189,26 @@ If there are no uncommitted changes after the review (nothing was modified), rep
 
 ---
 
+## Markdown structure formatting
+
+Apply only to **new notes** (files that appear as untracked `??` in `git status --short`). Do not reformat the body of existing modified files.
+
+When formatting the body of a new note, fix structural issues only — no rewording:
+
+- **Headings**: Use ATX style (`#`, `##`, `###`). Ensure one blank line before and after every heading. The top-level heading (`#`) should match the `title` frontmatter field.
+- **Lists**: Use `-` for unordered lists (not `*` or `+`). Indent nested items with 2 spaces. Add a blank line before and after a list that is not inline with a paragraph.
+- **Paragraphs**: Separate every paragraph with exactly one blank line. Remove trailing spaces from lines.
+- **Tables**: Align column separator pipes (`|`) consistently. Ensure a header separator row (`|---|---|`) immediately follows the header row.
+- **Code blocks**: Use fenced code blocks (` ``` `) with a language identifier where possible. Ensure a blank line before and after every code block.
+- **Emphasis**: Do not add or remove bold/italic — preserve the author's emphasis choices.
+
+Do not change content: sentence wording, list item text, heading labels, or any substantive meaning.
+
+---
+
 ## What NOT to change
 
-- Do not edit the body content of any note — only the frontmatter block
+- Do not edit the body content of **existing** notes — only their frontmatter block
 - Do not rename files
 - Do not create new folders or notes
 - Do not modify `_references.md` frontmatter (it follows the same schema but is a reference collection — be careful with its tags: use `reference` as the type tag)
@@ -201,12 +220,13 @@ If there are no uncommitted changes after the review (nothing was modified), rep
 After completing the review, give the user a concise report:
 
 ```
-Reviewed: <note-name>.md
+Reviewed: <note-name>.md  [new | existing]
 - Frontmatter: [added | fixed | already complete]
   - title: "..."
   - tags: [...]
   - summary: "..."
   - related: [...]
+- Body formatting: [applied | skipped (existing note)]
 - index.md: [updated | already current]
 
 README.md: [updated | already current]
