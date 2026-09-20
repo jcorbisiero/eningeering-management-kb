@@ -5,7 +5,7 @@ summary: Principles for naming things in code — treat naming as a communicatio
 related: []
 ---
 
-Consider thw following when naming things (especially in the age of AI)
+Consider the following when naming things (especially in the age of AI)
 - Thoughtfully. Own it as a communication opportunity; don’t opt out by seeking a narrow rule to follow.
 - Holistically. Strive to incorporate and weigh more input parameters, not fewer.
 - After essence, not after need.
