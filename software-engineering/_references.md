@@ -94,6 +94,7 @@
 * [The challenges of soft delete | atlas9](https://atlas9.dev/blog/soft-delete.html)  
 * [https://jon.chrt.dev/2026/04/15/things-you-didnt-know-about-indexes.html](https://jon.chrt.dev/2026/04/15/things-you-didnt-know-about-indexes.html)  
 * [https://blog.gaborkoos.com/posts/2026-08-01-Beyond-Happy-Path-Engineering-Databases](https://blog.gaborkoos.com/posts/2026-08-01-Beyond-Happy-Path-Engineering-Databases)
+* [Postgres Survival Guide](https://hatchet.run/blog/postgres-survival-guide)
 
 ### Data Tools
 
@@ -182,6 +183,7 @@
   * A well-designed system will degrade into a badly designed system over time  
   * Complexity is a Moat (filled by Leaky Abstractions)  
   * There is no fundamental upper limit on Software Complexity
+* [Coupling and Cohesion](https://bastrich.tech/coupling-and-cohesion)
 
 ### UI Design
 
