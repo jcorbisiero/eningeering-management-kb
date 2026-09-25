@@ -1,0 +1,1 @@
+* [Long Term Sense](https://www.rubick.com/long-term-sense/)
