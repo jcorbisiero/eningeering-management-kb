@@ -15,11 +15,14 @@ A personal knowledge base for engineering management — frameworks, techniques,
 | `ownership` | Ownership mindset, agency, and operating end-to-end as an engineer or manager |
 | `safety-engineering` | Techniques for making systems safer — catching failure modes early, designing for resilience, and avoiding incidents |
 | `software-engineering` | Practical techniques for software engineering work — bug reporting, code quality, and curated reading on design, debugging, and system architecture |
+| `strategy` | Frameworks for setting direction, org-level tradeoffs, roadmapping, and translating vision into executable plans |
+| `*/templates` | Copyable template files within a topic folder — structured guides for addressing a specific challenge (e.g. writing a team charter) |
 
 ## How to Use
 
 - Each folder has an `index.md` listing its notes with one-line descriptions.
 - Every note follows the frontmatter standard defined in [CONTRIBUTING.md](CONTRIBUTING.md).
+- Some topic folders contain a `templates/` subfolder with copyable, fill-in-the-blank guides for a specific challenge (e.g. `strategy/templates/charter-template.md`). Templates are meant to be copied and filled out — they are not knowledge notes and do not carry frontmatter.
 - See [CONTRIBUTING.md](CONTRIBUTING.md) for tag taxonomy, naming conventions, and folder granularity rules.
 
 ## Quick Navigation
@@ -33,3 +36,4 @@ A personal knowledge base for engineering management — frameworks, techniques,
 - [ownership/index.md](ownership/index.md)
 - [safety-engineering/index.md](safety-engineering/index.md)
 - [software-engineering/index.md](software-engineering/index.md)
+- [strategy/index.md](strategy/index.md)

@@ -170,7 +170,7 @@ Always start here — never skip this step:
 2. Run `git diff --name-only HEAD` to find files changed since the last commit
 3. Combine both lists and deduplicate
 4. From this combined list, extract two separate sets:
-   - **Review set**: `.md` files only, excluding `index.md`, `_references.md`, `CLAUDE.md`, `CONTRIBUTING.md`, and `README.md`
+   - **Review set**: `.md` files only, excluding `index.md`, `_references.md`, `CLAUDE.md`, `CONTRIBUTING.md`, `README.md`, and any file under a `templates/` subdirectory
    - **Documents set**: any files under a `<folder>/documents/` path (any file type — PDFs, etc.)
 5. If both sets are empty, report "No changed notes to review" and stop.
 
@@ -212,7 +212,22 @@ For each folder that contains a reviewed note:
 5. If a folder's Folder Map description is stale, update it
 6. Write the updated README only if changes were needed; report "README: updated" or "README: already current"
 
-### Quartz sync (run once after the README sync)
+### Root index sync (run once after the README sync)
+
+The root `index.md` is the Obsidian vault landing page. It must list every topic folder as an Obsidian wiki-link. After the README sync:
+
+1. Read `index.md` at the repository root
+2. Collect the full list of topic folders by listing subdirectories that contain an `index.md` (exclude `.claude`, `templates`, and any hidden dirs)
+3. For each topic folder, check whether a `[[folder/index|Display Name]]` entry exists in the `## Topics` list
+4. If any folder is missing, add it in alphabetical order using this format:
+   ```
+   - [[folder-name/index|Display Name]] — one-sentence description matching the folder's README Folder Map entry
+   ```
+   Derive the Display Name from the folder's `index.md` `title` frontmatter field.
+5. Write the updated root `index.md` only if changes were needed; report "Root index.md: updated" or "Root index.md: already current"
+6. If updated, include `index.md` in the files staged during the Quartz sync step
+
+### Quartz sync (run once after the root index sync)
 
 Follow the **Quartz web sync** section above to commit any changes made during this review and prompt the user to push.
 
@@ -289,6 +304,7 @@ Do not change content: sentence wording, list item text, heading labels, or any 
 - Do not rename files
 - Do not create new folders or notes
 - Do not modify `_references.md` frontmatter (it follows the same schema but is a reference collection — be careful with its tags: use `reference` as the type tag)
+- Do not add frontmatter to files under a `templates/` subdirectory — templates are copyable structural artifacts, not knowledge notes, and intentionally carry no frontmatter
 
 ---
 
@@ -312,6 +328,7 @@ Documents: <filename>  — [added to index.md Documents section | already listed
 Folder index.md frontmatter: [added | already complete]
 
 README.md: [updated | already current]
+Root index.md: [updated | already current]
 Quartz sync: [committed — push to main to rebuild | nothing to commit]
 ```
 

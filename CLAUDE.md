@@ -18,6 +18,13 @@ Every note must have frontmatter with `title`, `tags`, `summary`, and `related`.
 - Every folder has an `index.md` — check it before opening individual notes to understand what's inside
 - Don't create subfolders within a topic until that topic has 10+ notes
 
+### Templates
+- Some topic folders contain a `templates/` subfolder with copyable, fill-in-the-blank guides for addressing a specific challenge (e.g. `strategy/templates/charter-template.md`)
+- Templates are structural artifacts meant to be copied and filled out by the user — they are **not** knowledge notes
+- Template files do not carry YAML frontmatter
+- File naming: `<topic>-template.md` (e.g. `charter-template.md`, `postmortem-template.md`)
+- Do not add template files to the folder's `index.md` note table; they are separate artifacts
+
 ### Before creating a new note
 1. Check the relevant folder's `index.md` to see if a note already covers the topic
 2. Check `_references.md` in the folder — the topic may only need a link, not a full note
