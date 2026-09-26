@@ -1,6 +1,6 @@
 ---
 title: What Makes a Good Software Engineer
-tags: [leadership, framework]
+tags: [culture, framework]
 summary: A framework defining what good (and great) software engineers look like across six dimensions — influence, process understanding, quality, stakeholder management, complexity, and accountability.
 related: [key-person-risk]
 ---

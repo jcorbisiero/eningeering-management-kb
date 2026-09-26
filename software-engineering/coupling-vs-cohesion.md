@@ -1,6 +1,6 @@
 ---
 title: Coupling and Cohesion
-tags: [architecture, framework]
+tags: [software-engineering, framework]
 summary: Defines coupling and cohesion as the two fundamental measures of software design quality, and maps SOLID, DRY, Law of Demeter, and KISS back to these two properties. Reach for it when evaluating a design decision or explaining why a design principle matters.
 related: []
 ---

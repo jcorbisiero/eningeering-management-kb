@@ -1,6 +1,6 @@
 ---
 title: Inversion Principle for Project Safety
-tags: [incidents, technique]
+tags: [safety-engineering, technique]
 summary: A set of adversarial questions organized by failure mode — catastrophic failure, silent degradation, rollback, load, dependency failures, human error, and data integrity — to surface unknown unknowns before a project ships.
 related: []
 ---

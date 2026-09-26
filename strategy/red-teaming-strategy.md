@@ -1,6 +1,6 @@
 ---
 title: Red-Teaming Strategy
-tags: [leadership, technique]
+tags: [strategy, technique]
 summary: Techniques for stress-testing plans through challenge networks and structured red-teaming questions, including how to build a group of constructive critics and run pre-mortem exercises. Reach for this when pressure-testing a strategic plan or major decision.
 related: [practicing-strategy, what-is-strategy]
 ---

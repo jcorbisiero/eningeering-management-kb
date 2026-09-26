@@ -1,6 +1,6 @@
 ---
 title: Key Person Risk — Why Heroes Hide It and How to Find It
-tags: [leadership, technique]
+tags: [culture, technique]
 summary: Explains why heroic culture keeps key-person dependence invisible, and gives concrete methods — team audits, the vacation test, and rewarding fireproofers — for identifying and reducing single points of failure on your team.
 related: []
 ---

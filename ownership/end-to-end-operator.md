@@ -1,6 +1,6 @@
 ---
 title: End-to-End Operator
-tags: [leadership, framework]
+tags: [ownership, framework]
 summary: Defines the "end-to-end operator" archetype — someone who translates vision into execution by switching fluidly between strategy and hands-on delivery. Reach for this when coaching engineers on ownership mindset or evaluating senior+ candidates.
 related: [ownership-agency]
 ---

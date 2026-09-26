@@ -1,6 +1,6 @@
 ---
 title: What Is Strategy
-tags: [leadership, framework]
+tags: [strategy, framework]
 summary: A concise definition of strategy — what it is, what it is not, and how it differs from vision, mission, and goals.
 related: [practicing-strategy]
 ---

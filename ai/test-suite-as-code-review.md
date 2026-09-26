@@ -1,6 +1,6 @@
 ---
 title: Test Suite as Code Review
-tags: [architecture, technique]
+tags: [ai, technique]
 summary: Explores splitting codebases into smaller repos so AI agents can reason over bounded contexts more effectively, with analysis of the coordination and reliability trade-offs this introduces.
 related: [code-reviews]
 ---

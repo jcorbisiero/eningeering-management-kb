@@ -1,6 +1,6 @@
 ---
 title: Software Engineering
-tags: [process, reference]
+tags: [software-engineering, reference]
 summary: Practical techniques for software engineering work — bug reporting, code quality, and curated reading on design, debugging, and system architecture.
 related: []
 ---

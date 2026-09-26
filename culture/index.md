@@ -1,6 +1,6 @@
 ---
 title: Culture
-tags: [leadership, process]
+tags: [culture, reference]
 summary: Patterns and techniques for building healthy team culture — psychological safety, knowledge sharing, and avoiding organizational anti-patterns.
 related: []
 ---

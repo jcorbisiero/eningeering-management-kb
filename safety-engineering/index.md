@@ -1,6 +1,6 @@
 ---
 title: Safety Engineering
-tags: [incidents, technique]
+tags: [safety-engineering, reference]
 summary: Techniques for making systems safer — catching failure modes early, designing for resilience, and avoiding incidents.
 related: []
 ---

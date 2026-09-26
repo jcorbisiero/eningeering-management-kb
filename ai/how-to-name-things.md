@@ -1,6 +1,6 @@
 ---
 title: How to Name Things
-tags: [communication, technique]
+tags: [ai, technique]
 summary: Principles for naming things in code — treat naming as a communication act, reason holistically from essence rather than need, and write like you care. Reach for it when choosing names for variables, functions, or systems.
 related: []
 ---

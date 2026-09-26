@@ -1,6 +1,6 @@
 ---
 title: Strategy References
-tags: [leadership, reference]
+tags: [strategy, reference]
 summary: Curated external reading on engineering and organizational strategy — books, articles, and frameworks worth revisiting.
 related: []
 ---

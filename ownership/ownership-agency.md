@@ -1,6 +1,6 @@
 ---
 title: Ownership and Agency
-tags: [leadership, technique]
+tags: [ownership, technique]
 summary: Distinguishes ownership (deep understanding of a system's architecture and direction) from agency (iterating without permission), with practical guidance on how to exercise both without overstepping. Useful when coaching engineers on taking more initiative.
 related: [end-to-end-operator]
 ---

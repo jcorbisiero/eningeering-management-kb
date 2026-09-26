@@ -1,6 +1,6 @@
 ---
 title: Coaching Questions
-tags: [leadership, technique]
+tags: [coaching, technique]
 summary: A four-step coaching framework (Event → Meaning → Insight → Growth) with example questions that redirect conversation toward the coachee's self-awareness rather than the problem itself.
 related: []
 ---

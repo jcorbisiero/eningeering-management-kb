@@ -1,6 +1,6 @@
 ---
 title: Key Person Risk in Decision Making
-tags: [decision-making, leadership, delegation]
+tags: [decision-making, technique]
 summary: How to identify and reduce over-reliance on a single person for decisions — the goal is to extract their tacit knowledge into shared systems rather than cutting them out.
 related: [decision-making-techniques, technique-decision-making]
 ---

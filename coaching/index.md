@@ -1,6 +1,6 @@
 ---
 title: Coaching
-tags: [leadership, technique]
+tags: [coaching, reference]
 summary: Coaching techniques and question frameworks for helping engineers and managers develop self-awareness and grow.
 related: []
 ---

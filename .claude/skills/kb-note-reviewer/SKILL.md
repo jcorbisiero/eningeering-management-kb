@@ -33,14 +33,21 @@ related: [other-note-slug]   # omit the .md extension; empty list [] is fine
 **Theme tags** (pick 1):
 | Tag | When |
 |-----|------|
-| `decision-making` | Frameworks and techniques for making decisions |
+| `ai` | AI-assisted development, LLMs, and the impact of AI on engineering orgs |
 | `architecture` | Technical architecture choices, RFCs, ADRs |
+| `coaching` | Developing engineers and managers through coaching conversations |
+| `communication` | Writing, async communication, stakeholder management |
+| `culture` | Team culture, psychological safety, and organizational health |
+| `decision-making` | Frameworks and techniques for making decisions |
 | `delegation` | How and when to delegate work or authority |
 | `hiring` | Recruiting, interviewing, leveling |
 | `incidents` | Incident response, postmortems, on-call |
-| `communication` | Writing, async communication, stakeholder management |
 | `leadership` | People management, org dynamics, influence |
+| `ownership` | Ownership mindset, agency, and end-to-end operation |
 | `process` | Team processes, ceremonies, ways of working |
+| `safety-engineering` | Designing for resilience, failure prevention, and incident avoidance |
+| `software-engineering` | Code quality, debugging, and software craftsmanship |
+| `strategy` | Setting direction, org-level tradeoffs, and translating vision into plans |
 
 **Type tags** (pick 1):
 | Tag | When |

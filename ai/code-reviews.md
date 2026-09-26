@@ -1,6 +1,6 @@
 ---
 title: Code Reviews
-tags: [process, technique]
+tags: [ai, technique]
 summary: Examines what code review has traditionally built — defect detection, knowledge transfer, and shared ownership — and how AI should augment rather than replace human judgment. Reach for it when designing AI-assisted review workflows or evaluating how to preserve the learning value of review.
 related: [shifting-judgement-left]
 ---

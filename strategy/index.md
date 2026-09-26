@@ -1,6 +1,6 @@
 ---
 title: Strategy
-tags: [leadership, reference]
+tags: [strategy, reference]
 summary: Index of notes on engineering and organizational strategy — roadmaps, goal-setting, prioritization at the org level, and long-horizon thinking.
 related: []
 ---

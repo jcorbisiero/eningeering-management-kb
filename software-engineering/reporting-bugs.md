@@ -1,6 +1,6 @@
 ---
 title: How to Report a Bug So It Gets Fixed
-tags: [process, technique]
+tags: [software-engineering, technique]
 summary: A practical checklist for writing bug reports that maximize the chance of resolution — covering verification, bisection, test-case minimization, and writing the report you'd want to receive. Reach for this when filing an issue against an open-source library or escalating a bug to another team.
 related: []
 ---

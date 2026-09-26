@@ -1,6 +1,6 @@
 ---
 title: Hiring, Recruiting & Interviews
-tags: [hiring]
+tags: [hiring, reference]
 summary: Interview questions, resume advice, and resources for navigating hiring from both sides of the table.
 related: []
 ---

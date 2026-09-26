@@ -1,6 +1,6 @@
 ---
 title: How to Get Good at Strategy
-tags: [leadership, technique]
+tags: [strategy, technique]
 summary: A collection of diagnostic questions, red-teaming prompts, and self-assessment checks for developing and stress-testing strategy, plus a framework for connecting mission, vision, strategy, goals, and metrics.
 related: [red-teaming-strategy, what-is-strategy]
 ---

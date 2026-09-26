@@ -1,6 +1,6 @@
 ---
 title: Shifting Judgement Left
-tags: [process, technique]
+tags: [ai, technique]
 summary: Argues for moving knowledge-sharing, design alignment, and quality enforcement earlier in the development workflow — through pairing, mob programming, and automated checks — rather than relying on code review after the fact. Reach for it when evaluating what value code review is actually capturing versus what earlier practices could achieve instead.
 related: [code-reviews]
 ---
