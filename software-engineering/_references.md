@@ -100,6 +100,9 @@
 
 * [Guide to data tools landscape for developers · OlegWock](https://sinja.io/blog/data-landscape-guide-for-developers)
 
+### Datastructs
+* [QuadTrees](https://growingswe.com/blog/quadtrees)
+
 ### Datetime
 
 * [https://www.benjoffe.com/fast-day-of-week](https://www.benjoffe.com/fast-day-of-week)

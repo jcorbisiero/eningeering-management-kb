@@ -135,6 +135,31 @@ Rules:
 
 ---
 
+## Documents folder handling
+
+Each topic folder may contain a `documents/` subdirectory holding supplementary reading material (PDFs, papers, saved articles, etc.) that is not available as a public web link. These files are resources, not notes — do not summarize them or create frontmatter for them.
+
+When a file appears in the **documents set**:
+
+1. Identify the parent folder (e.g., `ai/documents/some-paper.pdf` → folder `ai`)
+2. Read the folder's `index.md`
+3. Check whether a **Documents** section already exists in `index.md`. If not, append one after the note table:
+   ```markdown
+   ## Documents
+
+   | File | Description |
+   |------|-------------|
+   | [Filename](documents/filename.pdf) | _Add a short description here_ |
+   ```
+4. If the section already exists, add a new row for the file if it is not already listed
+5. Use the filename (with extension removed, spaces replacing hyphens) as the link text — e.g., `cafe-s-your-agent.pdf` → `Cafe S Your Agent`
+6. Leave the description as a placeholder (`_Add a short description here_`) — do not invent a description from the filename
+7. Report: `documents/filename — added to index.md Documents section`
+
+Do not modify `_references.md` for documents; the Documents section in `index.md` is the only place they are recorded.
+
+---
+
 ## Workflow
 
 ### Determine scope from git
@@ -143,11 +168,11 @@ Always start here — never skip this step:
 
 1. Run `git status --short` to find untracked and modified files
 2. Run `git diff --name-only HEAD` to find files changed since the last commit
-3. Combine both lists, deduplicate, and filter to `.md` files only
-4. Exclude `index.md`, `_references.md`, `CLAUDE.md`, `CONTRIBUTING.md`, and `README.md`
-5. That filtered list is your **review set** — process only those files
-
-If the review set is empty, report "No changed notes to review" and stop.
+3. Combine both lists and deduplicate
+4. From this combined list, extract two separate sets:
+   - **Review set**: `.md` files only, excluding `index.md`, `_references.md`, `CLAUDE.md`, `CONTRIBUTING.md`, and `README.md`
+   - **Documents set**: any files under a `<folder>/documents/` path (any file type — PDFs, etc.)
+5. If both sets are empty, report "No changed notes to review" and stop.
 
 ### Per-note review (applied to each file in the review set)
 
@@ -155,10 +180,19 @@ If the review set is empty, report "No changed notes to review" and stop.
 2. Determine whether the file is **new** (appeared as `??` in `git status --short`) or **existing** (modified tracked file)
 3. Check if frontmatter is present and complete (all four fields non-empty, tags from taxonomy)
 4. If anything is missing or wrong, rewrite the frontmatter block
-5. **If the file is new**: also apply the Markdown structure formatting rules to the body (headings, lists, paragraphs, tables, code blocks — no rewording)
-6. Read the folder's `index.md`
-7. Add or update the note's row in the index table using English title-case link text
-8. Report what you changed (frontmatter added/fixed, body formatted, index updated)
+5. Apply the **Spell check and grammar** rules to the note body
+6. **If the file is new**: also apply the Markdown structure formatting rules to the body (headings, lists, paragraphs, tables, code blocks — no rewording)
+7. Read the folder's `index.md`
+8. Add or update the note's row in the index table using English title-case link text
+9. Report what you changed (frontmatter added/fixed, spell/grammar fixed, body formatted, index updated)
+
+### Documents pass (run after per-note reviews, before folder index frontmatter check)
+
+For each file in the **documents set**:
+
+1. Apply the **Documents folder handling** rules above
+2. Write the updated `index.md` if a row was added
+3. Report what changed
 
 ### Folder index frontmatter check (run once per folder after per-note reviews)
 
@@ -213,6 +247,25 @@ If there are no uncommitted changes after the review (nothing was modified), rep
 
 ---
 
+## Spell check and grammar
+
+Apply to **all notes** in the review set — both new and existing. Read the body of the note (excluding the frontmatter block) and fix:
+
+- **Misspellings**: correct obvious typos and misspelled words (e.g., "recieve" → "receive", "occured" → "occurred")
+- **Grammar errors**: fix subject-verb agreement, missing articles, incorrect tense, and similar mechanical errors
+- **Punctuation**: fix missing or misplaced commas, unclosed quotes, double spaces
+
+Do NOT:
+- Rephrase sentences for style or clarity
+- Change the author's word choices when the word is spelled correctly
+- Restructure paragraphs or reorder ideas
+- Add or remove content
+- Change technical terms, proper nouns, product names, or intentional shorthand (e.g., "kb", "RFC", "ADR")
+
+If no errors are found, report `Spell/grammar: clean`. If corrections were made, briefly list them: `Spell/grammar: fixed N issue(s) — <short list>`.
+
+---
+
 ## Markdown structure formatting
 
 Apply only to **new notes** (files that appear as untracked `??` in `git status --short`). Do not reformat the body of existing modified files.
@@ -250,8 +303,11 @@ Reviewed: <note-name>.md  [new | existing]
   - tags: [...]
   - summary: "..."
   - related: [...]
+- Spell/grammar: [clean | fixed N issue(s) — <short list>]
 - Body formatting: [applied | skipped (existing note)]
 - index.md row: [updated | already current]
+
+Documents: <filename>  — [added to index.md Documents section | already listed]
 
 Folder index.md frontmatter: [added | already complete]
 
