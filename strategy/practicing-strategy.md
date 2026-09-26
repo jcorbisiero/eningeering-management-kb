@@ -2,7 +2,7 @@
 title: How to Get Good at Strategy
 tags: [leadership, technique]
 summary: A collection of diagnostic questions, red-teaming prompts, and self-assessment checks for developing and stress-testing strategy, plus a framework for connecting mission, vision, strategy, goals, and metrics.
-related: [what-is-strategy]
+related: [red-teaming-strategy, what-is-strategy]
 ---
 
 # How to Get Good at Strategy
@@ -30,42 +30,6 @@ related: [what-is-strategy]
 - *How will you make tradeoffs and manage risks? What are the guiding principles?*
 - *Do you have quantitative or qualitative ways of measuring progress?*
 - *What processes are required to manage the implementation? Processes help catch blockers early and rebuild necessary alignment as things change.*
-
-## Red-teaming Strategy
-
-- What would have to be true for this to be wrong?
-- How will we know which runway we're actually on?
-  - Distinct signals that differentiate the options, how long it should take for those signals to emerge, and a clear decision rule for what happens next
-- It's six months from now and this failed. Why?
-  - Capture the top three reasons
-  - Convert each into a concrete test or mitigation
-  - If you can't mitigate a risk, at least acknowledge it explicitly
-- What evidence would cause us to stop?
-- What signals would tell us this is not working?
-- Who has the authority to call it?
-
-## Some Specific Examples of Red-teaming Questions
-
-- If user behavior changes in ways you're not measuring, would you know?
-- If team morale deteriorates gradually, where would that show up?
-- If productivity looks stable but innovation slows, which metric would catch it?
-- If your dashboards went dark tomorrow, or worse, confidently wrong, how long would it take you to notice?
-
-## Pitfalls to Avoid
-
-- Mistaking goals for strategy
-- Analysis paralysis
-- Ignoring implementation
-- Following trends blindly
-- Refusing to adapt
-
-## Self-assessment Questions
-
-- *How well do I identify the core challenge beneath surface problems?*
-- *How comfortable am I confronting uncomfortable truths?*
-- *How often do I spot insights that others miss?*
-- *How effectively do I work within constraints rather than fighting them?*
-- *How well do my strategic actions reinforce each other?*
 
 ## Spending Effort
 
