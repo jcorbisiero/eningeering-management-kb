@@ -10,8 +10,8 @@ A personal knowledge base for engineering management — frameworks, techniques,
 ## Topics
 
 - [[ai/index|AI]] — LLMs, AI-assisted development, and the impact of AI on engineering organizations
-- [[coaching/index|Coaching]]
-- [[communication/index|Communication]] — writing clearly, asking better questions, and stakeholder communication — coaching techniques and question frameworks for developing engineers and managers
+- [[coaching/index|Coaching]] — coaching techniques and question frameworks for helping engineers and managers develop self-awareness and grow
+- [[communication/index|Communication]] — techniques and frameworks for clear writing, asking better questions, and effective stakeholder communication
 - [[culture/index|Culture]] — psychological safety, knowledge sharing, organizational anti-patterns
 - [[decision-making/index|Decision-Making]] — prioritization, delegation, RFCs/ADRs, decision antipatterns
 - [[feedback/index|Feedback]] — frameworks and techniques for giving and receiving feedback effectively

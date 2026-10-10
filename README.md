@@ -8,6 +8,7 @@ A personal knowledge base for engineering management — frameworks, techniques,
 |--------|---------------|
 | `ai` | LLMs, AI-assisted development, and the impact of AI on engineering organizations |
 | `coaching` | Coaching techniques and question frameworks for developing self-awareness and growth in engineers and managers |
+| `communication` | Techniques and frameworks for clear writing, asking better questions, and effective stakeholder communication |
 | `culture` | Patterns and techniques for building healthy team culture — psychological safety, knowledge sharing, and avoiding organizational anti-patterns |
 | `decision-making` | Frameworks for prioritization, delegation calls, technical RFCs/ADRs, and avoiding common decision antipatterns |
 | `feedback` | Frameworks and techniques for giving and receiving feedback effectively — performance conversations, calibration, and feedback culture |
@@ -30,6 +31,7 @@ A personal knowledge base for engineering management — frameworks, techniques,
 
 - [ai/index.md](ai/index.md)
 - [coaching/index.md](coaching/index.md)
+- [communication/index.md](communication/index.md)
 - [culture/index.md](culture/index.md)
 - [decision-making/index.md](decision-making/index.md)
 - [feedback/index.md](feedback/index.md)
