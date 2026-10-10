@@ -14,6 +14,7 @@ A personal knowledge base for engineering management — frameworks, techniques,
 - [[communication/index|Communication]] — writing clearly, asking better questions, and stakeholder communication — coaching techniques and question frameworks for developing engineers and managers
 - [[culture/index|Culture]] — psychological safety, knowledge sharing, organizational anti-patterns
 - [[decision-making/index|Decision-Making]] — prioritization, delegation, RFCs/ADRs, decision antipatterns
+- [[feedback/index|Feedback]] — frameworks and techniques for giving and receiving feedback effectively
 - [[hiring-recruiting-interviews/index|Hiring & Interviews]] — interview questions, resume advice, candidate resources
 - [[leadership-management/index|Leadership & Management]] — developing long-term judgment and managing organizational risk
 - [[ownership/index|Ownership]] — ownership mindset, agency, and operating end-to-end

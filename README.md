@@ -10,6 +10,7 @@ A personal knowledge base for engineering management — frameworks, techniques,
 | `coaching` | Coaching techniques and question frameworks for developing self-awareness and growth in engineers and managers |
 | `culture` | Patterns and techniques for building healthy team culture — psychological safety, knowledge sharing, and avoiding organizational anti-patterns |
 | `decision-making` | Frameworks for prioritization, delegation calls, technical RFCs/ADRs, and avoiding common decision antipatterns |
+| `feedback` | Frameworks and techniques for giving and receiving feedback effectively — performance conversations, calibration, and feedback culture |
 | `hiring-recruiting-interviews` | Interview questions to ask as a candidate, resume guidance, and external reading on hiring and leveling |
 | `leadership-management` | Techniques and frameworks for engineering leadership — developing long-term judgment and managing organizational risk |
 | `ownership` | Ownership mindset, agency, and operating end-to-end as an engineer or manager |
@@ -31,6 +32,7 @@ A personal knowledge base for engineering management — frameworks, techniques,
 - [coaching/index.md](coaching/index.md)
 - [culture/index.md](culture/index.md)
 - [decision-making/index.md](decision-making/index.md)
+- [feedback/index.md](feedback/index.md)
 - [hiring-recruiting-interviews/index.md](hiring-recruiting-interviews/index.md)
 - [leadership-management/index.md](leadership-management/index.md)
 - [ownership/index.md](ownership/index.md)
