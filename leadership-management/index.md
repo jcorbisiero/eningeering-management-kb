@@ -10,4 +10,5 @@ related: []
 | Note | Description |
 |------|-------------|
 | [Developing a Sixth Sense for the Long Term](developing-a-sixth-sense-for-the-long-term.md) | Four-step method for identifying and managing long-term "time bombs" in engineering systems or team health |
+| [I Don't Want the Details](problem-details.md) | Reframes postmortems around systemic changes rather than explaining what happened |
 | [References](_references.md) | Curated links on developing long-term judgment as a leader |
