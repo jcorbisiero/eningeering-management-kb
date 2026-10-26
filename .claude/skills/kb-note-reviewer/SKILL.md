@@ -5,13 +5,13 @@ description: Review notes that are staged or committed (new changes ready to ent
 
 # KB Note Reviewer
 
-This skill reviews Obsidian engineering-management knowledge base notes that have new git changes (staged, unstaged, or in the latest commit), writes complete YAML frontmatter where it's missing or incomplete, and keeps the folder `index.md` accurate. It never audits the whole vault — it only touches files that have changed.
+This skill reviews Obsidian engineering-management knowledge base notes that have new git changes (staged, unstaged, committed but not yet pushed, or in the latest commit), writes complete YAML frontmatter where it's missing or incomplete, and keeps the folder `index.md` accurate. It never audits the whole vault — it only touches files that have changed.
 
 ---
 
 ## What you're working with
 
-The KB lives at the working directory. Run `git status --short` and `git diff --name-only HEAD` to find the set of changed `.md` files. Only review those files — do not scan the entire vault. Every `.md` note (except `index.md` and `_references.md`) must have valid YAML frontmatter. If frontmatter is absent or has empty/placeholder fields, generate it from the note's content.
+The KB lives at the working directory. Run `git status --short`, `git diff --name-only HEAD`, and `git log --name-only --pretty=format: origin/main..HEAD` to find the full set of changed `.md` files — covering unstaged changes, staged changes, and commits not yet pushed to the remote. Only review those files — do not scan the entire vault. Every `.md` note (except `index.md` and `_references.md`) must have valid YAML frontmatter. If frontmatter is absent or has empty/placeholder fields, generate it from the note's content.
 
 ---
 
@@ -174,12 +174,13 @@ Do not modify `_references.md` for documents; the Documents section in `index.md
 Always start here — never skip this step:
 
 1. Run `git status --short` to find untracked and modified files
-2. Run `git diff --name-only HEAD` to find files changed since the last commit
-3. Combine both lists and deduplicate
-4. From this combined list, extract two separate sets:
+2. Run `git diff --name-only HEAD` to find staged/unstaged changes relative to the last commit
+3. Run `git log --name-only --pretty=format: origin/main..HEAD` to find files touched in commits that are ahead of the remote (committed but not yet pushed)
+4. Combine all three lists and deduplicate
+5. From this combined list, extract two separate sets:
    - **Review set**: `.md` files only, excluding `index.md`, `_references.md`, `CLAUDE.md`, `CONTRIBUTING.md`, `README.md`, and any file under a `templates/` subdirectory
    - **Documents set**: any files under a `<folder>/documents/` path (any file type — PDFs, etc.)
-5. If both sets are empty, report "No changed notes to review" and stop.
+6. If both sets are empty, report "No changed notes to review" and stop.
 
 ### Per-note review (applied to each file in the review set)
 

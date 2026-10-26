@@ -37,6 +37,7 @@ Use only tags from this list. Do not invent new tags — if a topic genuinely do
 | `communication` | Writing, async communication, stakeholder management |
 | `leadership` | People management, org dynamics, influence |
 | `process` | Team processes, ceremonies, ways of working |
+| `ai` | Topics where AI tooling meaningfully changes the practice described |
 
 ### Type tags
 | Tag | When to use |
