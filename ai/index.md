@@ -9,6 +9,7 @@ related: []
 
 | Note | Description |
 |------|-------------|
+| [AI Developer Speed and Judgement](ai-speed-judgement.md) | How AI changes developer work across faster, further, and afresh categories — with principles for effective agent delegation |
 | [Code Reviews](code-reviews.md) | How AI should augment rather than replace human judgment in code review |
 | [How to Name Things](how-to-name-things.md) | Principles for treating naming as a communication act — reason from essence, not need |
 | [Shifting Judgement Left](shifting-judgement-left.md) | Moving knowledge-sharing and design alignment earlier in the workflow via pairing and automated checks |
