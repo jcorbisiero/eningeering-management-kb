@@ -14,6 +14,7 @@ Frameworks for prioritization, delegation calls, technical RFCs/ADRs, and avoidi
 | Note | Description |
 |------|-------------|
 | [Decision-Making Techniques](decision-making-techniques.md) | Core frameworks: Decision Triangle, Pause technique, Gather-Decide-Execute, and making small bets |
+| [When You Disagree with a Decision](disagreeing-with-a-decision.md) | Techniques for communicating decisions empathetically and distinguishing alignment from agreement |
 | [Examples](examples.md) | Three antipatterns with better alternatives — calendar-driven timelines, perfectionism before sharing, PR abandonment |
 | [Key Person Risk](key-person-risk.md) | How to reduce over-reliance on a single person by extracting their tacit knowledge into shared systems |
 | [Simplifying Decision Making](simplifying-decision-making.md) | Reversibility-vs-impact matrix and four decision modes for calibrating how much energy a decision deserves |
