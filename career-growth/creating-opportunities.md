@@ -7,6 +7,27 @@ related: [behaviors-of-world-class-engineers, stewardship-as-a-leader, nemawashi
 
 # Creating Opportunities
 
+## Act with hunger
+1. Pick business impact over backlog
+- Patrick McKenzie wrote "engineers are hired to create business value, not to program things."
+- Attach yourself to the parts of a company that make money
+- Understand what your company is actually trying to accomplish then find the right understanding what kind of goals your manager’s manager has is often a useful proxy.
+
+2. Pick a radical idea
+- Come up with a few ideas that would, if successful, dramatically improve the chances that your organization achieves those goals. Always be ambitious
+
+3. Build it over a weekend
+- You can fly past the usual process of writing product requirements documents (PRDs), getting buy-in, and lobbying for time with designers or product managers by building a working prototype
+
+4. Focus on one good idea
+- Junior people often make the mistake of cramming multiple ideas into a single prototype
+- Do not hide 3 excellent ideas among 20 bad ones
+- The point of creating a working prototype is to communicate an idea so well that leadership quickly understands both the opportunity and that you’re the one who can run with it
+
+5. Lean into your fresh perspective
+- If you’re working on something user-facing, you have a unique amount of empathy for users and thus a much better sense for how the product works or doesn’t work for them
+- Think about those colleagues who have a hard time internalizing what using their own product is like as an external user
+
 ## Responsibility Is Taken Before It Is Given
 
 * To get promoted as a software engineer in Big Tech, you generally need to show "ownership" of a product or area. This means being responsible for it and deciding what should happen over time.  
@@ -23,7 +44,7 @@ related: [behaviors-of-world-class-engineers, stewardship-as-a-leader, nemawashi
   * "How much do I believe in their ability to help?"  
   * "How much does this person already know? How much context do I need to get them up to speed?"  
   * "What's the risk if they mess something up?"  
-* This does not mean do not ask to help but there is a better way to implement this  
+* This does not mean do not ask to help, but there is a better way to implement this  
 * When applying the framework, keep in mind your goals, how it can help you get promoted, and if there is alignment or overlap with the company's goals  
 * **Observing:** your manager might not be able to articulate what they need. When you observe, you notice what might be helpful for your manager, even if they haven't verbalized it. Look for clues, revealed preferences, implicit feedback, and what's unspoken. Observing is something you can do without anyone's permission. You can start doing it today.  
 * **Asserting:** requires you to develop a point of view. You're asserting a potential problem and what you could do to solve it. When you assert, you can be wrong. If everyone keeps asking, "Well, what do you think?" There's no forward progress.  
@@ -44,10 +65,10 @@ related: [behaviors-of-world-class-engineers, stewardship-as-a-leader, nemawashi
 ## Example as a Staff Engineer
 
 * Don't act "strategically", but in your day to day, absorb the problems talked about  
-* Overtime these problems can surface across many groups and can present an opportunity to fix something your leadership is not yet aware of  
+* Over time these problems can surface across many groups and can present an opportunity to fix something your leadership is not yet aware of  
 * When something overlaps with my area, I start pulling on the thread. I might ask, "If X existed, would it solve your problem?" or point them at an existing feature in a product I own and ask how much of their use case it covers  
 * Users often ask for a particular solution instead of explaining their root issue. Instead of taking their request at face value, keep digging until you understand what they are trying to accomplish and why existing products do not work for them  
-* As a problem seems worth exploring become more active  
+* As a problem seems worth exploring, become more active  
   * How it affects the team's day-to-day work  
   * Sit with them as they walk me through their workflows and the bugs they're investigating  
   * Try working through some of those bugs myself  
