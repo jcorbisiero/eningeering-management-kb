@@ -16,6 +16,7 @@ Frameworks and techniques for setting direction, making tradeoffs at the org lev
 | [How to Get Good at Strategy](practicing-strategy.md) | Diagnostic questions, red-teaming prompts, and a mission-to-metrics framework for developing strategy |
 | [Red-Teaming Strategy](red-teaming-strategy.md) | Stress-testing plans through challenge networks and structured red-teaming questions |
 | [What Is Strategy](what-is-strategy.md) | Defines what strategy is and isn't, distinguishing it from vision, mission, and goals |
+| [Questions to Consider](_questions-to-consider.md) | Self-reflection prompts for examining whether your team's direction is genuinely strategic — or is execution dressed up as strategy |
 | [References](_references.md) | Curated external reading on engineering and organizational strategy |
 
 ## References

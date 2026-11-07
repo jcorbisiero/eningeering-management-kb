@@ -7,6 +7,7 @@ A personal knowledge base for engineering management — frameworks, techniques,
 | Folder | What it covers |
 |--------|---------------|
 | `ai` | LLMs, AI-assisted development, and the impact of AI on engineering organizations |
+| `career-growth` | Frameworks and techniques for navigating career development, leveling, and professional growth |
 | `coaching` | Coaching techniques and question frameworks for developing self-awareness and growth in engineers and managers |
 | `communication` | Techniques and frameworks for clear writing, asking better questions, and effective stakeholder communication |
 | `culture` | Patterns and techniques for building healthy team culture — psychological safety, knowledge sharing, and avoiding organizational anti-patterns |
@@ -30,6 +31,7 @@ A personal knowledge base for engineering management — frameworks, techniques,
 ## Quick Navigation
 
 - [ai/index.md](ai/index.md)
+- [career-growth/index.md](career-growth/index.md)
 - [coaching/index.md](coaching/index.md)
 - [communication/index.md](communication/index.md)
 - [culture/index.md](culture/index.md)

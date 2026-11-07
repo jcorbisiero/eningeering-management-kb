@@ -10,6 +10,7 @@ A personal knowledge base for engineering management — frameworks, techniques,
 ## Topics
 
 - [[ai/index|AI]] — LLMs, AI-assisted development, and the impact of AI on engineering organizations
+- [[career-growth/index|Career Growth]] — frameworks and techniques for navigating career development, leveling, and professional growth
 - [[coaching/index|Coaching]] — coaching techniques and question frameworks for helping engineers and managers develop self-awareness and grow
 - [[communication/index|Communication]] — techniques and frameworks for clear writing, asking better questions, and effective stakeholder communication
 - [[culture/index|Culture]] — psychological safety, knowledge sharing, organizational anti-patterns

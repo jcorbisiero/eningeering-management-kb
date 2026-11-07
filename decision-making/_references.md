@@ -12,3 +12,4 @@ related: [decision-making-techniques, technique-decision-making, key-person-risk
 * [The art fo framing problems](https://docs.superhuman.com/@shishir/eigenquestions-the-art-of-framing-problems)  
 * [How to Make Architecture Decisions: RFCs, ADRs, and Getting Everyone Aligned | by Lukas Niessen | ITNEXT](https://itnext.io/how-to-make-architecture-decisions-rfcs-adrs-and-getting-everyone-aligned-ab82e5384d2f)
 * [The art of simplifying decisions](https://dpereira.substack.com/p/the-art-of-simplifying-decisions)
+* [When you disagree with a decision](https://michaelheap.com/when-you-disagree-with-a-decision)

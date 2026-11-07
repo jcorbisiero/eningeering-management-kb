@@ -37,3 +37,4 @@ related: []
 * [Why I Stopped Arguing With People | A Geek’s Page](https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html)  
 * [Effective Communication: Tailoring the Message to Each Audience](https://www.anniez.xyz/p/effective-communication-tailoring)
 * [Asking more questions](https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions)
+* [Seven Phrase I Stole From Staff Engineers](https://louisedeason.substack.com/p/seven-phrases-i-stole-from-staff)

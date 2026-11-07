@@ -19,4 +19,5 @@ Frameworks for prioritization, delegation calls, technical RFCs/ADRs, and avoidi
 | [Key Person Risk](key-person-risk.md) | How to reduce over-reliance on a single person by extracting their tacit knowledge into shared systems |
 | [Simplifying Decision Making](simplifying-decision-making.md) | Reversibility-vs-impact matrix and four decision modes for calibrating how much energy a decision deserves |
 | [Technical Decision Making](technical-decision-making.md) | Step-by-step guide for RFCs and ADRs — how to write, review, decide, and record technical decisions |
+| [Questions to Consider](_questions-to-consider.md) | Self-reflection prompts for examining the quality of your decision process — not just outcomes — and the habits that make you more or less effective under uncertainty |
 | [References](_references.md) | List of links/references from where the notes were sourced |

@@ -1,3 +1,7 @@
+# **Best Practices**
+* [Git commands before reading code](https://piechowski.io/post/git-commands-before-reading-code/)
+* [How I Audit a Legacy Rails Codebase](https://piechowski.io/post/how-i-audit-a-legacy-rails-codebase/)
+
 # **Code Standards**
 
 * [Write Change-Resilient Code With Domain Objects](https://testing.googleblog.com/2024/09/write-change-resilient-code-with-domain.html)  

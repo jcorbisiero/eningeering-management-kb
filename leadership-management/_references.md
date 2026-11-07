@@ -2,3 +2,7 @@
 * [I don't want the details](https://michaelheap.com/i-dont-want-the-details)
 * [Put a name on it](https://theengineeringmanager.substack.com/p/put-a-name-on-it)
 * [Management in the Age of AI](https://blog.staysaasy.com/p/management-in-the-age-of-ai-44f)
+* [I am often wrong](https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html)
+* [Small Changes](https://lethain.com/small-changes/)
+* [Managing Up](https://softwareleads.substack.com/p/on-managing-up-and-how-to-do-it)
+* [META wanted to reduce headcount](https://newsletter.pragmaticengineer.com/p/the-pulse-meta-wanted-to-reduce-teams-43b)

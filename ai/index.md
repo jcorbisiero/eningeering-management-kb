@@ -15,6 +15,7 @@ related: []
 | [Shifting Judgement Left](shifting-judgement-left.md) | Moving knowledge-sharing and design alignment earlier in the workflow via pairing and automated checks |
 | [Supervisory Engineering Work](supervisory-engineering.md) | Framework for redesigning the engineering role as automation increases — automation levels, system signals, intervention criteria, and skill development |
 | [Test Suite as Code Review](test-suite-as-code-review.md) | Splitting codebases into smaller repos to improve AI agent reasoning, with analysis of coordination trade-offs |
+| [Questions to Consider](_questions-to-consider.md) | Self-reflection prompts for examining your assumptions and habits at the intersection of AI and engineering leadership |
 | [References](_references.md) | Curated links on LLMs, AI-assisted development, and AI in engineering organizations |
 
 ## Documents

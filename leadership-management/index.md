@@ -15,4 +15,5 @@ related: []
 | [Managing Up](managing-up.md) | Framework for proactively communicating with leadership — bridging intent and perception, building reliability, and avoiding anti-patterns |
 | [I Don't Want the Details](problem-details.md) | Reframes postmortems around systemic changes rather than explaining what happened |
 | [Simple Problem-Solving Technique](simple-problem-solving.md) | Six-step iterative method for approaching unclear problems — understand, gather, define, plan, goal, act |
+| [Questions to Consider](_questions-to-consider.md) | Self-reflection prompts for examining the gap between how you experience your own leadership and how it looks to the people around you |
 | [References](_references.md) | Curated links on developing long-term judgment as a leader |
