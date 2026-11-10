@@ -10,6 +10,7 @@ related: []
 | Note | Description |
 |------|-------------|
 | [AI Developer Speed and Judgement](ai-speed-judgement.md) | How AI changes developer work across faster, further, and afresh categories — with principles for effective agent delegation |
+| [Being Ambitious with AI](be-ambitious-with-ai.md) | Four lenses for raising ambition with AI — Altitude, Depth, and Range — with concrete prompting techniques |
 | [Building Feedback Loops](building-feedback-loops.md) | Three techniques for capturing agent intent and observing AI systems at runtime |
 | [Code Reviews](code-reviews.md) | How AI should augment rather than replace human judgment in code review |
 | [How to Name Things](how-to-name-things.md) | Principles for treating naming as a communication act — reason from essence, not need |

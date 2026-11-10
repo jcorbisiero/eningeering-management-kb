@@ -21,5 +21,6 @@ Frameworks and techniques for navigating career development — growing as an en
 | [Turn a Yellow Spot Into the Sun](turn-a-yellow-spot-into-the-sun.md) | Keeping a work journal as a career-compounding habit; recognizing and amplifying "wow" moments |
 | [Managing Weaknesses](managing-weaknesses.md) | Neutralizing weaknesses by applying existing strengths rather than fixing deficits directly |
 | [Mistakes That Feel Big But Cost Nothing](mistakes-that-feel-big-but-cost-nothing.md) | Actions people avoid at real cost — rough drafts, public questions, unqualified applications — when the downside is near zero |
+| [Moving Fast](moving-fast.md) | Techniques for shipping faster — reclaiming small chunks, sharing work early, and not over-engineering |
 | [Questions to Consider](_questions-to-consider.md) | Self-reflection prompts for examining your growth trajectory, blind spots, and the gap between how you see yourself and how others experience you |
 | [References](_references.md) | External reading on career growth, leveling, and professional development |

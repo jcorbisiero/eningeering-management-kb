@@ -11,7 +11,7 @@ related: [behaviors-of-world-class-engineers, stewardship-as-a-leader, nemawashi
 1. Pick business impact over backlog
 - Patrick McKenzie wrote "engineers are hired to create business value, not to program things."
 - Attach yourself to the parts of a company that make money
-- Understand what your company is actually trying to accomplish then find the right understanding what kind of goals your manager’s manager has is often a useful proxy.
+- Understand what your company is actually trying to accomplish then find the right understanding of what kind of goals your manager’s manager has is often a useful proxy.
 
 2. Pick a radical idea
 - Come up with a few ideas that would, if successful, dramatically improve the chances that your organization achieves those goals. Always be ambitious
