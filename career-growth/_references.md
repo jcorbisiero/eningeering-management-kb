@@ -20,3 +20,6 @@ related: []
 * [Three important steps in my maturation process - Thomas Dullien](https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process)
 * [Responsibility Is Taken Before It Is Given - Lalit Maganti](https://lalitm.com/responsibility-is-taken-before-it-is-given/)
 * [The Mistakes You're Allowed to Make - by Steve Huynh](https://alifeengineered.substack.com/p/the-mistakes-youre-allowed-to-make)
+* [Hunger beats tenure advice for junior engineers](https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers)
+* [Fast is better than slow](https://dubroy.com/blog/fast-is-better-than-slow/)
+* [Getting things done (in small increments)](https://dubroy.com/blog/getting-things-done-in-small-increments/)

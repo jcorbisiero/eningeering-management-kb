@@ -15,3 +15,4 @@ related: []
 * [Mission to Metrics \- by Annie Zhou](https://www.anniez.xyz/p/mission-to-metrics)  
 * [Effective Communication: Improve Alignment and Collaboration Within and Between Teams](https://www.anniez.xyz/p/effective-communication-improve-alignment)
 * [Challenge Network](https://mikefisher.substack.com/p/challenge-network)
+* [Desiging an Engineering Strategy](https://learnings.aleixmorgadas.dev/p/designing-an-engineering-strategy)

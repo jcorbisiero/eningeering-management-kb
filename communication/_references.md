@@ -38,3 +38,4 @@ related: []
 * [Effective Communication: Tailoring the Message to Each Audience](https://www.anniez.xyz/p/effective-communication-tailoring)
 * [Asking more questions](https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions)
 * [Seven Phrase I Stole From Staff Engineers](https://louisedeason.substack.com/p/seven-phrases-i-stole-from-staff)
+* [Lossy communication](https://mikefisher.substack.com/p/lossy)

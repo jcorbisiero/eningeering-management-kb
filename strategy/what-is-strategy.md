@@ -7,6 +7,8 @@ related: [practicing-strategy]
 
 # What Is Strategy
 
+> "A strategy is a coherent set of analyses, concepts, policies, arguments, and actions that respond to a high-stakes challenge." - Good Strategy Bad Strategy by Richard Rumelt.
+
 - Strategy is the process of driving change from point A to point B
 - Strategy is a distillation of what the exact challenges are, keying into what is most critical, and then coming up with an approach and set of coordinated actions to address the specific challenges with that approach
 - It involves choosing what to do and what not to do
