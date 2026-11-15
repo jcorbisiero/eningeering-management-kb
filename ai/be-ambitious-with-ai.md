@@ -41,7 +41,7 @@ Consider a mix of the following useful techniques:
 
 1. Insist on the same instruments used by the best in the industry
   - When prompted to act like a professional, models often switch vocabulary without actually switching methods
-  - For example if you need same tools as the best data scientists and statisticians, insist on Claude using databases and statistical models, not md files
+  - For example if you need the same tools as the best data scientists and statisticians, insist on Claude using databases and statistical models, not md files
 
 2. Pick unreasonable goals and tell the model that they're very reasonable
   - You need your website to load in 5s instead of 10s? Ask for 200ms. Does something seem impossible to the model? Reiterate that it's very much solvable, it just needs to keep going.
