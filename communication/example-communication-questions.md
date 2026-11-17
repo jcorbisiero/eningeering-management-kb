@@ -1,3 +1,10 @@
+---
+title: Example Communication Questions
+tags: [communication, example]
+summary: High-signal questions across engineering, goals, and product contexts — designed to surface assumptions, ground abstract discussions in reality, and force clarity on what "done" means.
+related: [ask-more-questions, communication-techniques-strategies]
+---
+
 ### Example Questions
 
 #### Engineering

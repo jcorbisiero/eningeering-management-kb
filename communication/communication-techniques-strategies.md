@@ -1,3 +1,10 @@
+---
+title: Techniques and Strategies for High Stakes Communication
+tags: [communication, technique]
+summary: Empathy-first principles for navigating difficult conversations — pre-communication questions to understand the other person's mental model, and the "Be the Idiot" approach for eliminating ambiguity through deliberate over-communication.
+related: [communication-frameworks, ask-more-questions]
+---
+
 ### Techniques and Strategies for High Stakes Communication
 
 Being strategic in communication starts with empathy. It is grounded in knowing the context of the other person and caring about how it will impact them. Being direct means getting to the point or core of the issue quickly, without too much setup. Questions to consider before communication:

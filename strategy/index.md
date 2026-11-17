@@ -20,6 +20,10 @@ Frameworks and techniques for setting direction, making tradeoffs at the org lev
 | [Questions to Consider](_questions-to-consider.md) | Self-reflection prompts for examining whether your team's direction is genuinely strategic — or is execution dressed up as strategy |
 | [References](_references.md) | Curated external reading on engineering and organizational strategy |
 
-## References
+## Templates
 
-- [_references.md](_references.md) — curated reading on strategy
+| Template | Description |
+|----------|-------------|
+| [Charter Template](templates/charter-template.md) | Fill-in-the-blank guide for writing a team charter — mission, vision, and strategy |
+| [Engineering Strategy Template](templates/engineering-strategy-template.md) | Structured template for addressing a high-stakes business problem through engineering — context, understanding, direction, key results, and coherent actions |
+

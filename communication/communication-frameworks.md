@@ -1,3 +1,10 @@
+---
+title: Communication Frameworks
+tags: [communication, framework]
+summary: Five structured communication frameworks — PREP, GROW, BLUF, Observation-Impact-Question, and Before-After-Bridge — for arguments, mentorship conversations, senior-leader updates, casual feedback, and presentations.
+related: [communication-techniques-strategies, ask-more-questions]
+---
+
 ### Communication Frameworks
 
 * PREP  
