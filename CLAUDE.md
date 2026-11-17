@@ -11,6 +11,7 @@ A personal engineering management knowledge base maintained in Obsidian and vers
 | Folder | What it covers |
 |--------|---------------|
 | `ai` | LLMs, AI-assisted development, and the impact of AI on engineering organizations |
+| `career-growth` | Career development frameworks — growing as an engineer or manager, building leverage, and thinking about progression |
 | `coaching` | Coaching techniques and question frameworks for developing engineers and managers |
 | `communication` | Techniques for clear writing, asking better questions, and stakeholder communication |
 | `culture` | Psychological safety, knowledge sharing, and avoiding organizational anti-patterns |
