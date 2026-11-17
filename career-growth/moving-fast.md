@@ -1,7 +1,7 @@
 ---
 title: Moving Fast
 tags: [software-engineering, technique]
-summary: Techniques for shipping faster as a developer: reclaiming small time chunks, sharing work early, not over-engineering, and picking battles wisely. Reach for this when you want to increase your personal development velocity.
+summary: "Techniques for shipping faster as a developer: reclaiming small time chunks, sharing work early, not over-engineering, and picking battles wisely. Reach for this when you want to increase your personal development velocity."
 related: [behaviors-of-world-class-engineers, mistakes-that-feel-big-but-cost-nothing]
 ---
 
